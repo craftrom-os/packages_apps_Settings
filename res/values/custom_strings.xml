@@ -116,16 +116,19 @@
     <string name="craft_maintainer">Device Maintainer</string>
     <string name="craft_security">Security</string>
     <string name="craft_title">About CraftRom</string>
-     <string name="craft_version">CraftRom Release Version</string>
+    <string name="craft_version">CraftRom Release Version</string>
     <string name="summary_with_version">%1$s | %2$s</string>
     <string name="others_title">Others</string>
     <string name="craft_footer">"Thx..."</string>
-    	<!-- SELinux Status -->
+    <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
-    	<!-- Black theme -->
+    <!-- Black theme -->
     <string name="system_black_theme_title">Use Black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
+    <!-- 60hz Battery Saver Toggle -->
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
 </resources>
