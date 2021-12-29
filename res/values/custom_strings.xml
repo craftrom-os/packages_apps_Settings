@@ -112,6 +112,9 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Connectivity check</string>
+    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
     <string name="craft_version">CraftRom version</string>
     <!-- craft maintainer -->
     <string name="craft_maintainer">Device Maintainer</string>
