@@ -128,4 +128,5 @@
     	<!-- Black theme -->
     <string name="system_black_theme_title">Use Black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="longpress_to_clipboard">Long-press to copy</string>
 </resources>
