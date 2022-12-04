@@ -119,10 +119,11 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Force LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Custom screen resolution</string>
     <!-- craft maintainer -->
     <string name="craft_maintainer">Device Maintainer</string>
     <string name="craft_title">About CraftRom</string>
-    <string name="lineage_title">About LineageOS</string>
     <string name="others_title">Others</string>
     <string name="craft_footer">"Thx..."</string>
 </resources>
