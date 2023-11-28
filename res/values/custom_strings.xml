@@ -111,4 +111,12 @@
     <string name="duration_less_than_one_minute">Less than 1 Minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="craft_version">CraftRom version</string>
+    <!-- craft maintainer -->
+    <string name="craft_maintainer">Device Maintainer</string>
+    <string name="craft_title">About CraftRom</string>
+    <string name="lineage_title">About LineageOS</string>
+    <string name="others_title">Others</string>
+    <string name="craft_footer">"Thx..."</string>
 </resources>
