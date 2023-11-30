@@ -27,8 +27,8 @@ import com.android.settings.core.BasePreferenceController;
 
 public class CraftMaintainerPreferenceController extends BasePreferenceController {
 
-	private static final String TAG = "craftDialogCtrl";
-	private static final String KEY_CRAFT_MAINTAINER_PROP = "ro.custom.maintainer";
+	private static final String TAG = "craftMaintainerPreferenceController";
+	private static final String KEY_CRAFT_MAINTAINER_PROP = "ro.craftrom.maintainer";
 
     public CraftMaintainerPreferenceController(Context context, String key) {
         super(context, key);
