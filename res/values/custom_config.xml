@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- Whether to show min/max refresh rate in display settings -->
     <bool name="config_show_refresh_rate_controls">false</bool>
     <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
-
     <!-- Fingerprint -->
     <bool name="config_is_front_facing_fps" translatable="false">false</bool>
-
     <!-- Max network scan search time in seconds -->
     <integer name="config_network_scan_helper_max_search_time_sec">300</integer>
-
     <!-- Indicates whether device has a side mounted fingerprint sensor,
          but a dedicated one, i.e. not embedded in the power button. -->
     <bool name="config_is_side_fps" translatable="false">false</bool>
-
     <!-- The position of the volume rocker, as opposed to the natural
          orientation of the display.
          Currently used for the volume button re-orient functionality.
@@ -26,5 +21,6 @@
              relative to the natural orientation of the display
              (true for some tablets) -->
     <integer name="config_volumeRockerVsDisplayOrientation">1</integer>
-
+    <!-- Whether to show custom screen resolution settings -->
+    <bool name="config_show_custom_screen_resolution_switch">true</bool>
 </resources>

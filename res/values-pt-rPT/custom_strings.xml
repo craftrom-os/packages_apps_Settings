@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Sem certificado. A sua ligação não vai ser privada.</string>
+    <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Taxa mínima de atualização</string>
     <string name="max_refresh_rate_title">Taxa máxima de atualização</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front">Localize o sensor de impressões digitais na parte frontal do seu telemóvel.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Localize o sensor de impressões digitais na parte de trás do seu telemóvel.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front">Toque no sensor na parte frontal do seu telefone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Toque no sensor na parte traseira do seu telefone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Toque no sensor na parte lateral do seu telefone.</string>
+    <!-- Battery light -->
     <string name="battery_light_title">Ativar luz de carregamento</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Pressione o sensor de impressão digital para desbloquear</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Para ligar o ecrã e desbloquear, mantenha premido o sensor de impressão digital.</string>
+    <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar à perda de dados, não sendo, portanto, recomendada!</string>
+    <!-- Generic stuff used everywhere -->
     <string name="reset">Repor</string>
+    <!-- Buttons -->
     <string name="button_pref_title">Botões</string>
     <string name="hardware_keys_home_key_title">Botão Página inicial</string>
     <string name="hardware_keys_back_key_title">Botão Anterior</string>
@@ -41,6 +52,7 @@
     <string name="camera_sleep_on_release_summary">Um toque parcial irá manter o ecrã ligado apenas enquanto o botão estiver pressionado</string>
     <string name="camera_launch_title">Iniciar câmara</string>
     <string name="camera_launch_summary">Uma pressão longa e largar inicia a câmara</string>
+    <!-- Key backlight -->
     <string name="button_backlight_title">Luz de fundo</string>
     <string name="button_backlight_enabled">Iluminar botões</string>
     <string name="button_backlight_only_when_pressed_title">Iluminar botões apenas ao tocar</string>
@@ -52,22 +64,31 @@
     <string name="backlight_summary_disabled">Desativada</string>
     <string name="backlight_summary_enabled_with_timeout">Ativada durante <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Ativada</string>
+    <!-- Buttons - Enable navbar -->
     <string name="disable_navkeys_title">Ativar botões virtuais</string>
     <string name="disable_navkeys_summary">Ativar botões virtuais e desativar os botões físicos</string>
+    <!-- Buttons - Swap capacitive keys -->
     <string name="swap_capacitive_keys_title">Trocar botões capacitivos</string>
     <string name="swap_capacitive_keys_summary">Alternar ordem dos botões Recentes e Anterior</string>
+    <!-- Others settings -->
     <string name="others_settings_title">Outras definições</string>
     <string name="additional_buttons_title">Botões adicionais</string>
+    <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Alta sensibilidade</string>
     <string name="high_touch_sensitivity_summary">Aumentar sensibilidade do ecrã para ser manuseado se estiver a usar luvas</string>
+    <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Flutuar sobre o ecrã</string>
     <string name="touchscreen_hovering_summary">Permite que flutue o dedo sobre o ecrã como um rato nos navegadores de Internet, áreas de trabalho remotas, etc</string>
+    <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Alta taxa de amostragem de toque</string>
     <string name="high_touch_polling_rate_summary">Aumentar a taxa de amostragem de toque do ecrã</string>
+    <!-- Advanced keyboard settings -->
     <string name="keyboard_extras_title">Extras</string>
     <string name="advanced_keyboard_settings_title">Definições avançadas</string>
+    <!-- FastCharge feature -->
     <string name="fast_charging_title">Carregamento rápido</string>
     <string name="fast_charging_summary">Desative para reduzir a temperatura produzida pelo dispositivo enquanto carrega ou para aumentar a duração da bateria</string>
+    <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Remover análise de face existente e criar uma nova</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Analisar face novamente</string>
     <string name="face_redo_confirm_btn">Refazer</string>
@@ -75,4 +96,32 @@
     <string name="face_unlock_method_title">Permitir desbloqueio facial no ecrã de bloqueio</string>
     <string name="face_unlock_method_default">Se o ecrã estiver ligado</string>
     <string name="face_unlock_method_swipe">Ao deslizar no ecrã de bloqueio</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Battery temperature</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Connectivity check</string>
+    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
+    <string name="craft_version">CraftRom Release Version</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Custom screen resolution</string>
+    <!-- craft maintainer -->
+    <string name="craft_maintainer">Device Maintainer</string>
+    <string name="craft_title">About CraftRom</string>
+    <string name="others_title">Others</string>
+    <string name="craft_footer">"Thx..."</string>
 </resources>
