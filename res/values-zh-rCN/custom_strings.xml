@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">未指定任何证书。您的网络连接将不是私密连接。</string>
+    <!-- Refresh rate -->
     <string name="min_refresh_rate_title">最低刷新率</string>
     <string name="max_refresh_rate_title">最高刷新率</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front">您可以在手机正面找到指纹传感器。</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">您可在手机背面找到指纹传感器。</string>
     <string name="fingerprint_enroll_find_sensor_message_side">在手机的一侧找到指纹传感器。</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front">轻触手机正面的指纹按键</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">轻触手机背面的指纹按键</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">轻触手机侧面的指纹按键</string>
+    <!-- Battery light -->
     <string name="battery_light_title">在充电时开启指示灯</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">长按指纹传感器以解锁设备</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">要唤醒您的屏幕并解锁，长按您的屏下指纹传感器。</string>
+    <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">警告：此选项可能无法正常工作或者导致数据丢失，从而不推荐使用</string>
+    <!-- Generic stuff used everywhere -->
     <string name="reset">重置</string>
+    <!-- Buttons -->
     <string name="button_pref_title">按键</string>
     <string name="hardware_keys_home_key_title">主页键</string>
     <string name="hardware_keys_back_key_title">返回键</string>
@@ -42,6 +52,7 @@
     <string name="camera_sleep_on_release_summary">仅当按钮被按下时，半按将会保持屏幕点亮</string>
     <string name="camera_launch_title">启动相机</string>
     <string name="camera_launch_summary">长按并松开将会启动相机</string>
+    <!-- Key backlight -->
     <string name="button_backlight_title">背光</string>
     <string name="button_backlight_enabled">点亮按键</string>
     <string name="button_backlight_only_when_pressed_title">仅在按下时点亮按钮</string>
@@ -53,22 +64,31 @@
     <string name="backlight_summary_disabled">已禁用</string>
     <string name="backlight_summary_enabled_with_timeout">保持背光灯 <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">已启用</string>
+    <!-- Buttons - Enable navbar -->
     <string name="disable_navkeys_title">启用虚拟按键</string>
     <string name="disable_navkeys_summary">启用虚拟按键并禁用实体按钮</string>
+    <!-- Buttons - Swap capacitive keys -->
     <string name="swap_capacitive_keys_title">交换电容按钮</string>
     <string name="swap_capacitive_keys_summary">交换最近任务与返回按键的位置</string>
+    <!-- Others settings -->
     <string name="others_settings_title">其他设置</string>
     <string name="additional_buttons_title">更多按键</string>
+    <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">高触摸灵敏度</string>
     <string name="high_touch_sensitivity_summary">提高触摸灵敏度，以便在戴手套时使用</string>
+    <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">悬空操作</string>
     <string name="touchscreen_hovering_summary">允许您将手指悬停在屏幕上作为浏览器、远程桌面等处的鼠标指针</string>
+    <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">高触控采样率</string>
     <string name="high_touch_polling_rate_summary">提高屏幕的触控采样率</string>
+    <!-- Advanced keyboard settings -->
     <string name="keyboard_extras_title">附加功能</string>
     <string name="advanced_keyboard_settings_title">高级设置</string>
+    <!-- FastCharge feature -->
     <string name="fast_charging_title">正在快速充电</string>
     <string name="fast_charging_summary">禁用以减少设备在充电时产生的热量或延长电池的使用寿命</string>
+    <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有的人脸数据并重新录入</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">重新录入人脸数据</string>
     <string name="face_redo_confirm_btn">重做</string>
@@ -76,4 +96,32 @@
     <string name="face_unlock_method_title">允许在锁定屏幕使用人脸识别解锁</string>
     <string name="face_unlock_method_default">当屏幕开启时</string>
     <string name="face_unlock_method_swipe">在锁定屏幕上滑动时</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Battery temperature</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Connectivity check</string>
+    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
+    <string name="craft_version">CraftRom Release Version</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Custom screen resolution</string>
+    <!-- craft maintainer -->
+    <string name="craft_maintainer">Device Maintainer</string>
+    <string name="craft_title">About CraftRom</string>
+    <string name="others_title">Others</string>
+    <string name="craft_footer">"Thx..."</string>
 </resources>
