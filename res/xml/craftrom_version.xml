@@ -14,7 +14,6 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/craft_version"
     settings:keywords="@string/keywords_android_version">
     <!-- Craftrom logo -->
     <PreferenceScreen
@@ -32,6 +31,14 @@
 	    	android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.craftversion.CraftVersionDetailPreferenceController"/>
+    <!-- Android version -->
+    <Preference
+        android:key="os_firmware_version"
+        android:title="@string/firmware_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
     <!-- Craftrom maintainer -->
     <Preference
         android:key="craft_maintainer"
