@@ -122,13 +122,9 @@
     <uses-permission android:name="android.permission.CUSTOMIZE_SYSTEM_UI" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <!-- Face Unlock -->
-    <uses-permission android:name="com.android.settings.FACE_UNLOCK"/>
-    <permission android:name="com.android.settings.FACE_UNLOCK" android:protectionLevel="signatureOrSystem"/>
-
     <!-- LiveDisplay -->
     <uses-permission android:name="lineageos.permission.MANAGE_LIVEDISPLAY" />
-
+    
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -4570,17 +4566,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.settings.BLUETOOTH_LE_AUDIO_QR_CODE_SCANNER"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
-
-        <!-- Face unlock -->
-        <activity android:name="com.android.settings.custom.biometrics.face.FaceEnrollActivity"
-            android:permission="com.android.settings.FACE_UNLOCK"
-            android:theme="@style/Transparent"
-            android:exported="true">
-            <intent-filter android:priority="1">
-                <action android:name="com.android.settings.intent.action.FACE_ENROLL"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
