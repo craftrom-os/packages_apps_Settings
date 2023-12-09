@@ -88,14 +88,6 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">正在快速充电</string>
     <string name="fast_charging_summary">禁用以减少设备在充电时产生的热量或延长电池的使用寿命</string>
-    <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有的人脸数据并重新录入</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">重新录入人脸数据</string>
-    <string name="face_redo_confirm_btn">重做</string>
-    <string name="face_redo_warning_msg">是否要移除现有的人脸数据并重新录入？</string>
-    <string name="face_unlock_method_title">允许在锁定屏幕使用人脸识别解锁</string>
-    <string name="face_unlock_method_default">当屏幕开启时</string>
-    <string name="face_unlock_method_swipe">在锁定屏幕上滑动时</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Battery temperature -->
