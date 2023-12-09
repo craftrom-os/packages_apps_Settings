@@ -36,9 +36,15 @@ public class CraftVersionPreferenceController extends BasePreferenceController {
         return AVAILABLE;
     }
 
-    @Override
-    public CharSequence getSummary() {
-        return SystemProperties.get(KEY_CRAFT_VERSION_PROP,
-                mContext.getString(R.string.unknown));
+@Override
+public CharSequence getSummary() {
+    String craftVersion = SystemProperties.get(KEY_CRAFT_VERSION_PROP, mContext.getString(R.string.unknown));
+    String releaseOrPreviewDisplay = Build.VERSION.RELEASE_OR_PREVIEW_DISPLAY;
+    if (!releaseOrPreviewDisplay.isEmpty()) {
+        return mContext.getString(R.string.summary_with_version, craftVersion, releaseOrPreviewDisplay);
+    } else {
+        return craftVersion;
     }
+}
+
 }

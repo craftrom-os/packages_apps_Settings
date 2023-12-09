@@ -29,7 +29,7 @@
         android:key="craft_version"
         android:title="@string/craft_version"
         android:summary="@string/summary_placeholder"
-		android:selectable="false"
+	    	android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.craftversion.CraftVersionDetailPreferenceController"/>
     <!-- Craftrom maintainer -->
@@ -37,9 +37,26 @@
         android:key="craft_maintainer"
         android:title="@string/craft_maintainer"
         android:summary="@string/summary_placeholder"
-		android:selectable="false"
+    		android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.craftversion.CraftMaintainerPreferenceController"/>
+     <!-- Security -->   
+     <PreferenceCategory
+        android:key="craft_category"
+        android:title="@string/craft_security" />
+    <!-- Security patch -->
+    <Preference
+        android:key="security_key"
+        android:title="@string/security_patch"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
+    <!-- SELinux -->
+    <Preference
+        android:key="selinux_status"
+        android:title="@string/selinux_status"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
     <PreferenceCategory
         android:key="others_category"
         android:title="@string/others_title" />
@@ -51,6 +68,22 @@
         android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
+    <!-- Mainline module version -->
+    <Preference
+        android:key="module_version"
+        android:title="@string/module_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
+    <!-- Build -->
+    <Preference
+        android:key="os_build_number"
+        android:title="@string/build_number"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
+        
     <com.android.settingslib.widget.FooterPreference
         android:key="craft_footer"
         android:title="@string/craft_footer"
