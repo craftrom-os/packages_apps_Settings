@@ -107,7 +107,6 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Connectivity check</string>
     <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
-    <string name="craft_version">CraftRom version</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Force LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
@@ -115,7 +114,15 @@
     <string name="custom_screen_resolution_title">Custom screen resolution</string>
     <!-- craft maintainer -->
     <string name="craft_maintainer">Device Maintainer</string>
+    <string name="craft_security">Security</string>
     <string name="craft_title">About CraftRom</string>
+    <string name="craft_version">CraftRom Release Version</string>
+    <string name="summary_with_version">%1$s | %2$s</string>
     <string name="others_title">Others</string>
     <string name="craft_footer">"Thx..."</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
